@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+// Ex.2 -> Calculate the sum of first n numbers
 int main(){
 
     int n,
@@ -10,6 +12,7 @@ int main(){
 
     scanf("%d", &n);
 
+    //The sum is made according the number n inserted by the user
     for(int i = 1; i <= n; i++){
         sum += i;
     }

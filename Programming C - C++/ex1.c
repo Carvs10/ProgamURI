@@ -16,6 +16,7 @@ int main(){
 
     scanf("%d", &a);
 
+    //Function to calculate the squared manually
     while(a != 0){
 
         sqrd = a*a;
