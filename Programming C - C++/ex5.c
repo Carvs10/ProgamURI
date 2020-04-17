@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Ex5. -> Check in a mounth, the day that has the biggest numb of discs sold 
 int main(){
 
     int i = 1,

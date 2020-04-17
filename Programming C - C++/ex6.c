@@ -1,33 +1,35 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+// Ex6. Check for a the grades in a classroom
 int main(){
 
     int n,
-        grade = 0,
-        min = 0,
-        max = 0;
+        grade,
+        min,
+        max = 10;
 
     printf("Please, tell me the number of students: \n");
     scanf("%d", &n);
 
+    // Check for the highest and lowest grade
     for(int i = 0; i < n; i++){
 
         printf("Put here the grade of the student: \n");
         scanf("%d", &grade);
 
-        min = grade;
-
-        if( min > max)
+         
+        if(max < grade)
         {
-            max = min;
+            max = grade;
         }
-        
+        if(min > grade)
+            min = grade;
+
     }
 
-    printf("%d \n", max);
-
+    printf("Min grad of class: %d \n", min);
+    printf("Max grad of class: %d \n", max);
 
 
     return 0;
