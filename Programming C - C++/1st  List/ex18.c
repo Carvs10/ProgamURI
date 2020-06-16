@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Checks if the values are the sides of a rectangular triangle
 int main()
 
 {

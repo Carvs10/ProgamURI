@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//Transforms a decimal into a Binary Number
 int main(){
 
 	int deciNumb;
